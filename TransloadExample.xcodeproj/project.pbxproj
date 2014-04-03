@@ -21,6 +21,21 @@
 		D2FCB29318EC94DF009BEFB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FCB27518EC94DF009BEFB0 /* UIKit.framework */; };
 		D2FCB29B18EC94DF009BEFB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2FCB29918EC94DF009BEFB0 /* InfoPlist.strings */; };
 		D2FCB29D18EC94DF009BEFB0 /* TransloadExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB29C18EC94DF009BEFB0 /* TransloadExampleTests.m */; };
+		D2FCB2D318EC9553009BEFB0 /* ApiData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2A918EC9553009BEFB0 /* ApiData.m */; };
+		D2FCB2D418EC9553009BEFB0 /* AssemblyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2AC18EC9553009BEFB0 /* AssemblyBuilder.m */; };
+		D2FCB2D518EC9553009BEFB0 /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2B018EC9553009BEFB0 /* Step.m */; };
+		D2FCB2D618EC9553009BEFB0 /* ErrorMessage.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2FCB2B218EC9553009BEFB0 /* ErrorMessage.strings */; };
+		D2FCB2D718EC9553009BEFB0 /* TransloaditError.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2B418EC9553009BEFB0 /* TransloaditError.m */; };
+		D2FCB2D818EC9553009BEFB0 /* DefaultHttpExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2B718EC9553009BEFB0 /* DefaultHttpExecutor.m */; };
+		D2FCB2D918EC9553009BEFB0 /* ParsedApiData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2BA18EC9553009BEFB0 /* ParsedApiData.m */; };
+		D2FCB2DA18EC9553009BEFB0 /* JSONRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2C418EC9553009BEFB0 /* JSONRequestParser.m */; };
+		D2FCB2DB18EC9553009BEFB0 /* JSONResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2C618EC9553009BEFB0 /* JSONResponseParser.m */; };
+		D2FCB2DC18EC9553009BEFB0 /* Transloadit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2C918EC9553009BEFB0 /* Transloadit.m */; };
+		D2FCB2DD18EC9553009BEFB0 /* TransloaditRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2CB18EC9553009BEFB0 /* TransloaditRequest.m */; };
+		D2FCB2DE18EC9553009BEFB0 /* TransloaditResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2CD18EC9553009BEFB0 /* TransloaditResponse.m */; };
+		D2FCB2DF18EC9553009BEFB0 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2D018EC9553009BEFB0 /* OrderedDictionary.m */; };
+		D2FCB2E018EC9553009BEFB0 /* ShaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB2D218EC9553009BEFB0 /* ShaUtils.m */; };
+		D2FCB2E218ECBAD3009BEFB0 /* atkritka_1335458443_233_m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FCB2E118ECBAD3009BEFB0 /* atkritka_1335458443_233_m.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,44 @@
 		D2FCB29818EC94DF009BEFB0 /* TransloadExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransloadExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D2FCB29A18EC94DF009BEFB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2FCB29C18EC94DF009BEFB0 /* TransloadExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransloadExampleTests.m; sourceTree = "<group>"; };
+		D2FCB2A818EC9553009BEFB0 /* ApiData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiData.h; sourceTree = "<group>"; };
+		D2FCB2A918EC9553009BEFB0 /* ApiData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiData.m; sourceTree = "<group>"; };
+		D2FCB2AB18EC9553009BEFB0 /* AssemblyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssemblyBuilder.h; sourceTree = "<group>"; };
+		D2FCB2AC18EC9553009BEFB0 /* AssemblyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssemblyBuilder.m; sourceTree = "<group>"; };
+		D2FCB2AD18EC9553009BEFB0 /* IAssemblyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAssemblyBuilder.h; sourceTree = "<group>"; };
+		D2FCB2AE18EC9553009BEFB0 /* IStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStep.h; sourceTree = "<group>"; };
+		D2FCB2AF18EC9553009BEFB0 /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		D2FCB2B018EC9553009BEFB0 /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		D2FCB2B218EC9553009BEFB0 /* ErrorMessage.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ErrorMessage.strings; sourceTree = "<group>"; };
+		D2FCB2B318EC9553009BEFB0 /* TransloaditError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransloaditError.h; sourceTree = "<group>"; };
+		D2FCB2B418EC9553009BEFB0 /* TransloaditError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransloaditError.m; sourceTree = "<group>"; };
+		D2FCB2B618EC9553009BEFB0 /* DefaultHttpExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultHttpExecutor.h; sourceTree = "<group>"; };
+		D2FCB2B718EC9553009BEFB0 /* DefaultHttpExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultHttpExecutor.m; sourceTree = "<group>"; };
+		D2FCB2B818EC9553009BEFB0 /* IRequestExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRequestExecutor.h; sourceTree = "<group>"; };
+		D2FCB2B918EC9553009BEFB0 /* ParsedApiData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsedApiData.h; sourceTree = "<group>"; };
+		D2FCB2BA18EC9553009BEFB0 /* ParsedApiData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsedApiData.m; sourceTree = "<group>"; };
+		D2FCB2BB18EC9553009BEFB0 /* IApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IApiRequest.h; sourceTree = "<group>"; };
+		D2FCB2BC18EC9553009BEFB0 /* IApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IApiResponse.h; sourceTree = "<group>"; };
+		D2FCB2BD18EC9553009BEFB0 /* ITransloadit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITransloadit.h; sourceTree = "<group>"; };
+		D2FCB2BF18EC9553009BEFB0 /* TransloaditLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransloaditLogger.h; sourceTree = "<group>"; };
+		D2FCB2C118EC9553009BEFB0 /* IRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRequestParser.h; sourceTree = "<group>"; };
+		D2FCB2C218EC9553009BEFB0 /* IResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IResponseParser.h; sourceTree = "<group>"; };
+		D2FCB2C318EC9553009BEFB0 /* JSONRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequestParser.h; sourceTree = "<group>"; };
+		D2FCB2C418EC9553009BEFB0 /* JSONRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequestParser.m; sourceTree = "<group>"; };
+		D2FCB2C518EC9553009BEFB0 /* JSONResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONResponseParser.h; sourceTree = "<group>"; };
+		D2FCB2C618EC9553009BEFB0 /* JSONResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONResponseParser.m; sourceTree = "<group>"; };
+		D2FCB2C718EC9553009BEFB0 /* Transloadit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transloadit-Prefix.pch"; sourceTree = "<group>"; };
+		D2FCB2C818EC9553009BEFB0 /* Transloadit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transloadit.h; sourceTree = "<group>"; };
+		D2FCB2C918EC9553009BEFB0 /* Transloadit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transloadit.m; sourceTree = "<group>"; };
+		D2FCB2CA18EC9553009BEFB0 /* TransloaditRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransloaditRequest.h; sourceTree = "<group>"; };
+		D2FCB2CB18EC9553009BEFB0 /* TransloaditRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransloaditRequest.m; sourceTree = "<group>"; };
+		D2FCB2CC18EC9553009BEFB0 /* TransloaditResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransloaditResponse.h; sourceTree = "<group>"; };
+		D2FCB2CD18EC9553009BEFB0 /* TransloaditResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransloaditResponse.m; sourceTree = "<group>"; };
+		D2FCB2CF18EC9553009BEFB0 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		D2FCB2D018EC9553009BEFB0 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		D2FCB2D118EC9553009BEFB0 /* ShaUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaUtils.h; sourceTree = "<group>"; };
+		D2FCB2D218EC9553009BEFB0 /* ShaUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaUtils.m; sourceTree = "<group>"; };
+		D2FCB2E118ECBAD3009BEFB0 /* atkritka_1335458443_233_m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atkritka_1335458443_233_m.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +165,8 @@
 		D2FCB27718EC94DF009BEFB0 /* TransloadExample */ = {
 			isa = PBXGroup;
 			children = (
+				D2FCB2E118ECBAD3009BEFB0 /* atkritka_1335458443_233_m.jpg */,
+				D2FCB2A618EC94F4009BEFB0 /* Libs */,
 				D2FCB28018EC94DF009BEFB0 /* AVTAppDelegate.h */,
 				D2FCB28118EC94DF009BEFB0 /* AVTAppDelegate.m */,
 				D2FCB28318EC94DF009BEFB0 /* Main.storyboard */,
@@ -150,6 +205,107 @@
 				D2FCB29918EC94DF009BEFB0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2FCB2A618EC94F4009BEFB0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2A718EC9553009BEFB0 /* TransloaditLib */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		D2FCB2A718EC9553009BEFB0 /* TransloaditLib */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2A818EC9553009BEFB0 /* ApiData.h */,
+				D2FCB2A918EC9553009BEFB0 /* ApiData.m */,
+				D2FCB2AA18EC9553009BEFB0 /* assembly */,
+				D2FCB2B118EC9553009BEFB0 /* errors */,
+				D2FCB2B518EC9553009BEFB0 /* executor */,
+				D2FCB2BB18EC9553009BEFB0 /* IApiRequest.h */,
+				D2FCB2BC18EC9553009BEFB0 /* IApiResponse.h */,
+				D2FCB2BD18EC9553009BEFB0 /* ITransloadit.h */,
+				D2FCB2BE18EC9553009BEFB0 /* log */,
+				D2FCB2C018EC9553009BEFB0 /* parser */,
+				D2FCB2C718EC9553009BEFB0 /* Transloadit-Prefix.pch */,
+				D2FCB2C818EC9553009BEFB0 /* Transloadit.h */,
+				D2FCB2C918EC9553009BEFB0 /* Transloadit.m */,
+				D2FCB2CA18EC9553009BEFB0 /* TransloaditRequest.h */,
+				D2FCB2CB18EC9553009BEFB0 /* TransloaditRequest.m */,
+				D2FCB2CC18EC9553009BEFB0 /* TransloaditResponse.h */,
+				D2FCB2CD18EC9553009BEFB0 /* TransloaditResponse.m */,
+				D2FCB2CE18EC9553009BEFB0 /* utils */,
+			);
+			name = TransloaditLib;
+			path = Libs/TransloaditLib;
+			sourceTree = "<group>";
+		};
+		D2FCB2AA18EC9553009BEFB0 /* assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2AB18EC9553009BEFB0 /* AssemblyBuilder.h */,
+				D2FCB2AC18EC9553009BEFB0 /* AssemblyBuilder.m */,
+				D2FCB2AD18EC9553009BEFB0 /* IAssemblyBuilder.h */,
+				D2FCB2AE18EC9553009BEFB0 /* IStep.h */,
+				D2FCB2AF18EC9553009BEFB0 /* Step.h */,
+				D2FCB2B018EC9553009BEFB0 /* Step.m */,
+			);
+			path = assembly;
+			sourceTree = "<group>";
+		};
+		D2FCB2B118EC9553009BEFB0 /* errors */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2B218EC9553009BEFB0 /* ErrorMessage.strings */,
+				D2FCB2B318EC9553009BEFB0 /* TransloaditError.h */,
+				D2FCB2B418EC9553009BEFB0 /* TransloaditError.m */,
+			);
+			path = errors;
+			sourceTree = "<group>";
+		};
+		D2FCB2B518EC9553009BEFB0 /* executor */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2B618EC9553009BEFB0 /* DefaultHttpExecutor.h */,
+				D2FCB2B718EC9553009BEFB0 /* DefaultHttpExecutor.m */,
+				D2FCB2B818EC9553009BEFB0 /* IRequestExecutor.h */,
+				D2FCB2B918EC9553009BEFB0 /* ParsedApiData.h */,
+				D2FCB2BA18EC9553009BEFB0 /* ParsedApiData.m */,
+			);
+			path = executor;
+			sourceTree = "<group>";
+		};
+		D2FCB2BE18EC9553009BEFB0 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2BF18EC9553009BEFB0 /* TransloaditLogger.h */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		D2FCB2C018EC9553009BEFB0 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2C118EC9553009BEFB0 /* IRequestParser.h */,
+				D2FCB2C218EC9553009BEFB0 /* IResponseParser.h */,
+				D2FCB2C318EC9553009BEFB0 /* JSONRequestParser.h */,
+				D2FCB2C418EC9553009BEFB0 /* JSONRequestParser.m */,
+				D2FCB2C518EC9553009BEFB0 /* JSONResponseParser.h */,
+				D2FCB2C618EC9553009BEFB0 /* JSONResponseParser.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		D2FCB2CE18EC9553009BEFB0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCB2CF18EC9553009BEFB0 /* OrderedDictionary.h */,
+				D2FCB2D018EC9553009BEFB0 /* OrderedDictionary.m */,
+				D2FCB2D118EC9553009BEFB0 /* ShaUtils.h */,
+				D2FCB2D218EC9553009BEFB0 /* ShaUtils.m */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +387,9 @@
 			files = (
 				D2FCB28A18EC94DF009BEFB0 /* Images.xcassets in Resources */,
 				D2FCB27C18EC94DF009BEFB0 /* InfoPlist.strings in Resources */,
+				D2FCB2E218ECBAD3009BEFB0 /* atkritka_1335458443_233_m.jpg in Resources */,
 				D2FCB28518EC94DF009BEFB0 /* Main.storyboard in Resources */,
+				D2FCB2D618EC9553009BEFB0 /* ErrorMessage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +408,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FCB2DA18EC9553009BEFB0 /* JSONRequestParser.m in Sources */,
+				D2FCB2D918EC9553009BEFB0 /* ParsedApiData.m in Sources */,
+				D2FCB2E018EC9553009BEFB0 /* ShaUtils.m in Sources */,
+				D2FCB2D318EC9553009BEFB0 /* ApiData.m in Sources */,
+				D2FCB2D518EC9553009BEFB0 /* Step.m in Sources */,
+				D2FCB2DE18EC9553009BEFB0 /* TransloaditResponse.m in Sources */,
 				D2FCB28818EC94DF009BEFB0 /* AVTViewController.m in Sources */,
+				D2FCB2DD18EC9553009BEFB0 /* TransloaditRequest.m in Sources */,
+				D2FCB2D418EC9553009BEFB0 /* AssemblyBuilder.m in Sources */,
+				D2FCB2D818EC9553009BEFB0 /* DefaultHttpExecutor.m in Sources */,
+				D2FCB2DF18EC9553009BEFB0 /* OrderedDictionary.m in Sources */,
 				D2FCB28218EC94DF009BEFB0 /* AVTAppDelegate.m in Sources */,
 				D2FCB27E18EC94DF009BEFB0 /* main.m in Sources */,
+				D2FCB2DC18EC9553009BEFB0 /* Transloadit.m in Sources */,
+				D2FCB2D718EC9553009BEFB0 /* TransloaditError.m in Sources */,
+				D2FCB2DB18EC9553009BEFB0 /* JSONResponseParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
